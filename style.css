@@ -1,0 +1,97 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #555;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .highlight-green {
+            color: green;
+        }
+        input {
+          width: 93%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          margin-bottom: 10px;
+          font-size: 16px;
+        }
+        select, button {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        button {
+            background-color:Tomato;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #777;
+        }
+        .footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .loading {
+            text-align: center;
+            display: none;
+            font-size: 18px;
+            color: #007BFF;
+        }
+        .progress-container {
+            width: 100%;
+            height: 20px;
+            background: #f3f3f3;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .progress-bar {
+            height: 100%;
+            width: 0%;
+            background: #007BFF;
+            border-radius: 10px;
+            text-align: center;
+            color: #fff;
+            line-height: 20px;
+        }
+        .notification {
+            color: red;
+            text-align: center;
+            margin-top: 10px;
+            display: none;
+            font-size: 14px;
+        }
