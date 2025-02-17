@@ -1,0 +1,89 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craftland Tool by Shah G Creator</title>
+    <link rel="icon" href="../x.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Craftland Map Settings</h2>
+        <div class="form-group">
+            <label for="fileUpload">
+                Upload <span class="highlight-green">ProjectData_slot .bytes</span> File
+            </label>
+            <input type="file" id="fileUpload" accept=".bytes">
+        </div>
+        <div class="form-group">
+            <label for="teamSelect">Select Number of Teams</label>
+            <select id="teamSelect">
+                <option value="1">Team 1</option>
+                <option value="2">Team 2</option>
+                <option value="3">Team 3</option>
+                <option value="4">Team 4</option>
+                <option value="5">Team 5</option>
+                <option value="6">Team 6</option>
+                <option value="7">Team 7</option>
+                <option value="8">Team 8</option>
+                <option value="9">Team 9</option>
+                <option value="10">Team 10</option>
+                <option value="11">Team 11</option>
+                <option value="12">Team 12</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="playerSelect">Select Number of Players</label>
+            <select id="playerSelect">
+                <option value="1">Player 1</option>
+                <option value="2">Player 2</option>
+                <option value="3">Player 3</option>
+                <option value="4">Player 4</option>
+                <option value="5">Player 5</option>
+                <option value="6">Player 6</option>
+                <option value="7">Player 7</option>
+                <option value="8">Player 8</option>
+                <option value="9">Player 9</option>
+                <option value="10">Player 10</option>
+                <option value="11">Player 11</option>
+                <option value="12">Player 12</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="roundSelect">Select Number of Rounds</label>
+            <select id="roundSelect">
+                <option value="1">Round 1</option>
+                <option value="2">Round 2</option>
+                <option value="3">Round 3</option>
+                <option value="4">Round 4</option>
+                <option value="5">Round 5</option>
+                <option value="6">Round 6</option>
+                <option value="7">Round 7</option>
+                <option value="8">Round 8</option>
+                <option value="9">Round 9</option>
+                <option value="10">Round 10</option>
+                <option value="11">Round 11</option>
+                <option value="12">Round 12</option>
+                <option value="13">Round 13</option>
+                <option value="14">Round 14</option>
+                <option value="15">Round 15</option>
+                <option value="16">Round 16</option>
+                <option value="17">Round 17</option>
+                <option value="18">Round 18</option>
+                <option value="19">Round 19</option>
+                <option value="20">Round 20</option>
+            </select>
+        </div>
+        <button onclick="modifyAndDownload()">Download</button>
+        <div id="notification" class="notification"></div>
+        <div class="loading" id="loadingIndicator">Processing... Please wait.</div>
+        <div class="progress-container" id="progressContainer" style="display: none;">
+            <div id="progressBar" class="progress-bar">0%</div>
+        </div>
+    </div>
+    <div class="footer">
+        <p> 2025 Copyright <span id="footer-link"></span></p>
+    </div>
+    <script src="../scriptx.js"></script>
+
+    
+</body></html>
